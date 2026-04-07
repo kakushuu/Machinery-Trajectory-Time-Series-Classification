@@ -1,0 +1,45 @@
+{
+  "model_ablation": {
+    "mae_mpc": {
+      "best_val_acc": 0.7199,
+      "best_epoch": 68,
+      "task": "pretrain_mae_mpc",
+      "description": "MAE + MPC joint training"
+    },
+    "nokd_mpc": {
+      "best_val_acc": 0.7149,
+      "best_epoch": 63,
+      "task": "pretrain_mpc",
+      "description": "MPC without knowledge distillation"
+    },
+    "post_beats": {
+      "best_val_acc": 0.5323,
+      "best_epoch": 74,
+      "task": "pretrain_post",
+      "description": "PoST with BEATs tokenizer"
+    },
+    "core": {
+      "best_val_acc": "See logs",
+      "task": "pretrain_core",
+      "description": "CoRe generative reconstruction"
+    }
+  },
+  "function_ablation": {
+    "similarity_aware_post": {
+      "best_val_acc": 0.6955,
+      "best_epoch": 35,
+      "description": "PoST with similarity-aware clustering"
+    }
+  },
+  "final_compass": {
+    "architecture": "DeiT-base (12 layers, 768-dim)",
+    "patch_size": "16x16",
+    "input_shape": "128x300",
+    "num_patches": 144,
+    "spms_clusters": 16,
+    "pretrain_data": "78,913 unlabeled segments",
+    "finetune_data": "3,257 train / 1,087 val / 2,175 test",
+    "test_accuracy": "89.2%",
+    "test_mAP": "74.1%"
+  }
+}
