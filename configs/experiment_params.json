@@ -1,0 +1,20 @@
+{
+    "freqm": "12",
+    "": "0",
+    "noise": "True",
+    "mixup": "0.0",
+    "lr": "1e-5",
+    "batch_size": "48",
+    "grad_accum_steps": "2",
+    "epoch": "40",
+    "fstride": "10",
+    "tstride": "10",
+    "bal": "bal",
+    "loss": "CE",
+    "warmup": "False",
+    "lrscheduler_start": "5",
+    "lrscheduler_step": "1",
+    "lrscheduler_decay": "0.85",
+    "freeze_base": "False",
+    "class_weights": "2.0,2.0"
+}
