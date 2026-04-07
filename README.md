@@ -2,7 +2,7 @@
 
 **ComPASS** is a task-specific self-supervised audio representation learning framework designed for **agricultural machinery trajectory time-series classification**. It is optimized for agricultural machinery sounds with structured spectro-temporal patterns and naturally imbalanced class distributions.
 
-**Paper**: [A Self-Supervised Audio Learning Model for Agricultural Machinery Trajectory Time-Series Classification](link)
+**Paper**: ready to upload
 
 **Code**: [https://github.com/kakushuu/Machinery-Trajectory-Time-Series-Classification](https://github.com/kakushuu/Machinery-Trajectory-Time-Series-Classification)
 
