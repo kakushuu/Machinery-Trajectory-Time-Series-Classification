@@ -1,0 +1,14 @@
+{
+  "dataset": "agriculture",
+  "model_size": "base",
+  "task": "pretrain_core",
+  "mask_patch": 60,
+  "batch_size": 24,
+  "learning_rate": 0.0001,
+  "input_shape": "128x288",
+  "patch_shape": "16x16",
+  "stride": "16x16",
+  "total_params_M": 90.758496,
+  "finetuning_params_M": 90.758496,
+  "mae_decoder_params_M": 0.0
+}
