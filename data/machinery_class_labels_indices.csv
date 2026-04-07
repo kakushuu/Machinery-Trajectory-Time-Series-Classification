@@ -1,0 +1,11 @@
+index,mid,display_name,operation_label,status_label,movement_label
+0,/m/07rwj00,"Harvesting_Operation,Empty_Harvesting,Backward_Movement","Harvesting_Operation","Empty_Harvesting","Backward_Movement"
+1,/m/07rwj01,"Harvesting_Operation,Empty_Harvesting,Straight_Line_Movement","Harvesting_Operation","Empty_Harvesting","Straight_Line_Movement"
+2,/m/07rwj02,"Harvesting_Operation,Empty_Harvesting,Turning_Movement","Harvesting_Operation","Empty_Harvesting","Turning_Movement"
+3,/m/07rwj03,"Harvesting_Operation,Normal_Harvesting,Full_Load_Harvesting","Harvesting_Operation","Normal_Harvesting","Full_Load_Harvesting"
+4,/m/07rwj04,"Non_Operation,Transfer_Movement,Backward_Movement","Non_Operation","Transfer_Movement","Backward_Movement"
+5,/m/07rwj05,"Non_Operation,Transfer_Movement,Straight_Line_Movement","Non_Operation","Transfer_Movement","Straight_Line_Movement"
+6,/m/07rwj06,"Non_Operation,Transfer_Movement,Turning_Movement","Non_Operation","Transfer_Movement","Turning_Movement"
+7,/m/07rwj07,"Non_Operation,Waiting_Status,Engine_Off","Non_Operation","Waiting_Status","Engine_Off"
+8,/m/07rwj08,"Non_Operation,Waiting_Status,Idling","Non_Operation","Waiting_Status","Idling"
+9,/m/07rwj09,"Unloading_Operation,Stable_Unloading,Idling","Unloading_Operation","Stable_Unloading","Idling"
